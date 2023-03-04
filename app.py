@@ -8,7 +8,6 @@ from utils.utils import Translation
 
 DEVICE = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 TRANSFORMER_WEIGHTS = './weights/viEn_transformer.pth'
-VOCAB_PATH = './weights/vocabs.pkl'
 vocab_src_path = './weights/vocab_src.pkl'
 vocab_tgt_path = './weights/vocab_tgt.pkl'
 
